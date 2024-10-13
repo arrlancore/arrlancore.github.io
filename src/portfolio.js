@@ -20,26 +20,23 @@ const illustration = {
 };
 
 const greeting = {
-  username: "Saad Pasta",
-  title: "Hi all, I'm Saad",
+  username: "Dwiki Arlan",
+  title: "Hi all, I'm Arlan",
   subTitle: emoji(
-    "A passionate Full Stack Software Developer 🚀 having an experience of building Web and Mobile applications with JavaScript / Reactjs / Nodejs / React Native and some other cool libraries and frameworks."
+    "A passionate Full Stack Software Engineer 🚀 with extensive experience in building Web and Mobile applications using JavaScript, TypeScript, React, Node.js, Go, and other modern technologies."
   ),
   resumeLink:
-    "https://drive.google.com/file/d/1ofFdKF_mqscH8WvXkSObnVvC9kK7Ldlu/view?usp=sharing", // Set to empty to hide the button
+    "https://drive.google.com/file/d/1LrW2EgrLBV9avMFOF_Oa-4d025EGO5UZ/view?usp=sharing", // Set to empty to hide the button
   displayGreeting: true // Set false to hide this section, defaults to true
 };
 
 // Social Media Links
 
 const socialMediaLinks = {
-  github: "https://github.com/saadpasta",
-  linkedin: "https://www.linkedin.com/in/saadpasta/",
-  gmail: "saadpasta70@gmail.com",
-  gitlab: "https://gitlab.com/saadpasta",
-  facebook: "https://www.facebook.com/saad.pasta7",
-  medium: "https://medium.com/@saadpasta",
-  stackoverflow: "https://stackoverflow.com/users/10422806/saad-pasta",
+  github: "https://github.com/arrlancore",
+  linkedin: "https://www.linkedin.com/in/dwiki-arlan/",
+  gmail: "dwikiarlan@gmail.com",
+  stackoverflow: "https://stackoverflow.com/users/5637521/arrlancore",
   // Instagram, Twitter and Kaggle are also supported in the links!
   // To customize icons and social links, tweak src/components/SocialMedia
   display: true // Set true to display this section, defaults to false
@@ -48,73 +45,76 @@ const socialMediaLinks = {
 // Skills Section
 
 const skillsSection = {
-  title: "What I do",
-  subTitle: "CRAZY FULL STACK DEVELOPER WHO WANTS TO EXPLORE EVERY TECH STACK",
-  skills: [
+  "title": "What I do",
+  "subTitle": "VERSATILE FULL STACK ENGINEER WITH EXPERTISE IN MODERN WEB TECHNOLOGIES",
+  "skills": [
     emoji(
-      "⚡ Develop highly interactive Front end / User Interfaces for your web and mobile applications"
+      "⚡ Develop and optimize high-performance, scalable frontend and backend solutions for web and mobile applications",
     ),
-    emoji("⚡ Progressive Web Applications ( PWA ) in normal and SPA Stacks"),
     emoji(
-      "⚡ Integration of third party services such as Firebase/ AWS / Digital Ocean"
+      "⚡ Implement and enhance React-based applications with a focus on component reusability and maintainability",
+    ),
+    emoji(
+      "⚡ Integrate and optimize cloud services and third-party APIs to improve application functionality and performance"
     )
   ],
+
 
   /* Make Sure to include correct Font Awesome Classname to view your icon
 https://fontawesome.com/icons?d=gallery */
 
   softwareSkills: [
     {
-      skillName: "html-5",
-      fontAwesomeClassname: "fab fa-html5"
+      "skillName": "JavaScript",
+      "fontAwesomeClassname": "fab fa-js"
     },
     {
-      skillName: "css3",
-      fontAwesomeClassname: "fab fa-css3-alt"
+      "skillName": "TypeScript",
+      "fontAwesomeClassname": "fas fa-code"
     },
     {
-      skillName: "sass",
-      fontAwesomeClassname: "fab fa-sass"
+      "skillName": "React",
+      "fontAwesomeClassname": "fab fa-react"
     },
     {
-      skillName: "JavaScript",
-      fontAwesomeClassname: "fab fa-js"
+      "skillName": "Node.js",
+      "fontAwesomeClassname": "fab fa-node"
     },
     {
-      skillName: "reactjs",
-      fontAwesomeClassname: "fab fa-react"
+      "skillName": "HTML5",
+      "fontAwesomeClassname": "fab fa-html5"
     },
     {
-      skillName: "nodejs",
-      fontAwesomeClassname: "fab fa-node"
+      "skillName": "CSS3",
+      "fontAwesomeClassname": "fab fa-css3-alt"
     },
     {
-      skillName: "swift",
-      fontAwesomeClassname: "fab fa-swift"
+      "skillName": "Go",
+      "fontAwesomeClassname": "fas fa-code"
     },
     {
-      skillName: "npm",
-      fontAwesomeClassname: "fab fa-npm"
+      "skillName": "Docker",
+      "fontAwesomeClassname": "fab fa-docker"
     },
     {
-      skillName: "sql-database",
-      fontAwesomeClassname: "fas fa-database"
+      "skillName": "Git",
+      "fontAwesomeClassname": "fab fa-git-alt"
     },
     {
-      skillName: "aws",
-      fontAwesomeClassname: "fab fa-aws"
+      "skillName": "AWS",
+      "fontAwesomeClassname": "fab fa-aws"
     },
     {
-      skillName: "firebase",
-      fontAwesomeClassname: "fas fa-fire"
+      "skillName": "GCP",
+      "fontAwesomeClassname": "fab fa-google"
     },
     {
-      skillName: "python",
-      fontAwesomeClassname: "fab fa-python"
+      "skillName": "MongoDB",
+      "fontAwesomeClassname": "fas fa-database"
     },
     {
-      skillName: "docker",
-      fontAwesomeClassname: "fab fa-docker"
+      "skillName": "PostgreSQL",
+      "fontAwesomeClassname": "fas fa-database"
     }
   ],
   display: true // Set false to hide this section, defaults to true
@@ -126,23 +126,22 @@ const educationInfo = {
   display: true, // Set false to hide this section, defaults to true
   schools: [
     {
-      schoolName: "Harvard University",
-      logo: require("./assets/images/harvardLogo.png"),
-      subHeader: "Master of Science in Computer Science",
-      duration: "September 2017 - April 2019",
-      desc: "Participated in the research of XXX and published 3 papers.",
+      schoolName: "Jakarta Muhammadiyah University",
+      logo: require("./assets/images/umj.png"), // You'll need to provide this image
+      subHeader: "Bachelor of Informatics Engineering",
+      duration: "2016 - 2019",
+      desc: "Completed degree in Informatics Engineering, providing a strong foundation in software development and computer science principles.",
       descBullets: [
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
+        // You may want to add specific achievements or relevant coursework here
       ]
     },
     {
-      schoolName: "Stanford University",
-      logo: require("./assets/images/stanfordLogo.png"),
-      subHeader: "Bachelor of Science in Computer Science",
-      duration: "September 2013 - April 2017",
-      desc: "Ranked top 10% in the program. Took courses about Software Engineering, Web Security, Operating Systems, ...",
-      descBullets: ["Lorem ipsum dolor sit amet, consectetur adipiscing elit"]
+      schoolName: "Polytechnic of Andalas University",
+      logo: require("./assets/images/unand.png"),
+      subHeader: "Computer Engineering",
+      duration: "July 2010 - September 2013",
+      desc: "Graduated with combined Software Engineering and Networking Computer for final year project.",
+      descBullets: []
     }
   ]
 };
@@ -150,53 +149,68 @@ const educationInfo = {
 // Your top 3 proficient stacks/tech experience
 
 const techStack = {
-  viewSkillBars: true, //Set it to true to show Proficiency Section
+  viewSkillBars: true,
   experience: [
     {
-      Stack: "Frontend/Design", //Insert stack or technology you have experience in
-      progressPercentage: "90%" //Insert relative proficiency in percentage
+      Stack: "Frontend Development",
+      progressPercentage: "95%"
     },
     {
-      Stack: "Backend",
-      progressPercentage: "70%"
+      Stack: "Backend Development",
+      progressPercentage: "85%"
     },
     {
-      Stack: "Programming",
-      progressPercentage: "60%"
+      Stack: "DevOps & Cloud Services",
+      progressPercentage: "80%"
+    },
+    {
+      Stack: "Mobile App Development",
+      progressPercentage: "75%"
     }
   ],
-  displayCodersrank: false // Set true to display codersrank badges section need to changes your username in src/containers/skillProgress/skillProgress.js:17:62, defaults to false
+  displayCodersrank: false
 };
 
 // Work experience section
 
 const workExperiences = {
-  display: true, //Set it to true to show workExperiences Section
+  display: true,
   experience: [
     {
       role: "Software Engineer",
-      company: "Facebook",
-      companylogo: require("./assets/images/facebookLogo.png"),
-      date: "June 2018 – Present",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      company: "Wallex",
+      companylogo: require("./assets/images/wlx.jpg"),
+      date: "October 2023 – Present",
+      desc: "Improved internal banking service performance and security while working on a platform for global payments and foreign currency management.",
       descBullets: [
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
+        "Reduced API response times from 400ms to 100ms using asynchronous functions",
+        "Implemented middleware for enhanced account data security",
+        "Improved React component API for better reusability"
       ]
     },
     {
-      role: "Front-End Developer",
-      company: "Quora",
-      companylogo: require("./assets/images/quoraLogo.png"),
-      date: "May 2017 – May 2018",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+      role: "Software Engineer",
+      company: "Jatis Mobile",
+      companylogo: require("./assets/images/jatism.png"),
+      date: "January 2023 – August 2023",
+      desc: "Worked on communication & digital distribution solutions for over 500 companies, focusing on mobile app development and team leadership.",
+      descBullets: [
+        "Reduced QA delivery time by 50% with Firebase app distribution",
+        "Led team to improve app quality using clean React practices",
+        "Cut feature development time by 30% through code reorganization"
+      ]
     },
     {
-      role: "Software Engineer Intern",
-      company: "Airbnb",
-      companylogo: require("./assets/images/airbnbLogo.png"),
-      date: "Jan 2015 – Sep 2015",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+      role: "Software Engineer Frontend",
+      company: "RuangGuru",
+      companylogo: require("./assets/images/ruangGuruLogo.jpg"),
+      date: "September 2021 – November 2022",
+      desc: "Contributed to the development of online learning services for an edtech company with over 15M users.",
+      descBullets: [
+        "Accelerated delivery by transitioning to cloud deployment with Jenkins",
+        "Improved end-to-end testing efficiency by 20% with robot framework",
+        "Boosted code maintainability by 50% through refactoring"
+      ]
     }
   ]
 };
@@ -213,33 +227,65 @@ const openSource = {
 
 const bigProjects = {
   title: "Big Projects",
-  subtitle: "SOME STARTUPS AND COMPANIES THAT I HELPED TO CREATE THEIR TECH",
+  subtitle: "HIGHLIGHTED RECENT WORKS AND SIGNIFICANT CONTRIBUTIONS",
   projects: [
     {
-      image: require("./assets/images/saayaHealthLogo.webp"),
-      projectName: "Saayahealth",
-      projectDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+      image: "https://garrulous-gravity-f14.notion.site/image/https%3A%2F%2Fs3-us-west-2.amazonaws.com%2Fsecure.notion-static.com%2Fb7846ceb-ebd2-49f0-854e-49f78669f704%2Fberanda_toko_seller.png?table=block&id=ad116be0-3bb6-41e3-ab02-4210b7a11d2a&spaceId=f37778c3-df0d-46de-9853-10792f653ee9&width=2000&userId=&cache=v2",
+      projectName: "Jatis Mobile: BerandaToko App",
+      projectDesc: "Build seller app, cut delivery time by 50%, and reduced feature development time by 30% through code reorganization.",
       footerLink: [
         {
-          name: "Visit Website",
-          url: "http://saayahealth.com/"
+          name: "Company Website",
+          url: "https://www.berandatoko.com/"
         }
-        //  you can add extra buttons here.
       ]
     },
     {
-      image: require("./assets/images/nextuLogo.webp"),
-      projectName: "Nextu",
-      projectDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+      image: "https://garrulous-gravity-f14.notion.site/image/https%3A%2F%2Fs3-us-west-2.amazonaws.com%2Fsecure.notion-static.com%2Fa92ad5f9-99a1-470e-be85-bcbfc6051d3f%2Flist_course.png?table=block&id=6f791858-bce5-447c-b1b2-aea47965d464&spaceId=f37778c3-df0d-46de-9853-10792f653ee9&width=2000&userId=&cache=v2",
+      projectName: "Skill Academy by RuangGuru",
+      projectDesc: "Enhance learning skillacademy platform, ransitioned deployment to cloud, enhanced end-to-end testing by 20%, and refactored code base to boost maintainability by 50%.",
       footerLink: [
         {
           name: "Visit Website",
-          url: "http://nextu.se/"
+          url: "https://www.skillacademy.com/"
         }
       ]
-    }
+    },
+    {
+      image: require("./assets/images/kls.png"),
+      projectName: "Kirana Lintas Samudra: Freight Forwarding Software",
+      projectDesc: "Developed comprehensive freight forwarding software to manage shipments, including bill of lading, invoicing, tracking, delivery monitoring, accounting, journal entries, and general ledger.",
+      footerLink: [
+        {
+          name: "Company Website",
+          url: "https://kiranalintassamudra.co.id/"
+        }
+      ]
+    },
+    {
+      image: require("./assets/images/primaku.png"),
+      projectName: "Primaku Website Redesign",
+      projectDesc: "Redesigned the website with a new brand theme and improved SEO, resulting in a 70% increase in search engine visibility.",
+      footerLink: [
+        {
+          name: "Visit Website",
+          url: "https://primaku.com/"
+        }
+      ]
+    },
+    {
+      image: "https://garrulous-gravity-f14.notion.site/image/https%3A%2F%2Fs3-us-west-2.amazonaws.com%2Fsecure.notion-static.com%2Ff10b7c2a-4439-4b3b-a31c-b81eea544f98%2Ftatsu_server.png?table=block&id=ef383eb0-b354-47d6-9895-ac0de76f5581&spaceId=f37778c3-df0d-46de-9853-10792f653ee9&width=2000&userId=&cache=v2",
+      projectName: "Tatsu: Community Chat Bot",
+      projectDesc: "Developed UI, scaled GraphQL API, and implemented canvas-based game engine for a chat bot, enhancing user experience.",
+      footerLink: [
+        {
+          name: "Visit Website",
+          url: "https://tatsu.gg/"
+        }
+      ]
+    },
   ],
-  display: true // Set false to hide this section, defaults to true
+  display: true // Set to true to display this section
 };
 
 // Achievement Section
@@ -308,23 +354,23 @@ const achievementSection = {
 const blogSection = {
   title: "Blogs",
   subtitle:
-    "With Love for Developing cool stuff, I love to write and teach others what I have learnt.",
-  displayMediumBlogs: "true", // Set true to display fetched medium blogs instead of hardcoded ones
+    "Sharing insights and experiences from my journey in software development.",
+  displayMediumBlogs: "false", // Set to false as we're using hardcoded blog entries
   blogs: [
     {
-      url: "https://blog.usejournal.com/create-a-google-assistant-action-and-win-a-google-t-shirt-and-cloud-credits-4a8d86d76eae",
-      title: "Win a Google Assistant Tshirt and $200 in Google Cloud Credits",
+      url: "https://www.linkedin.com/pulse/temporal-breath-fresh-air-javascript-date-time-world-dwiki-arlan/",
+      title: "Temporal: A Breath of Fresh Air in the JavaScript Date/Time World",
       description:
-        "Do you want to win $200 and Google Assistant Tshirt by creating a Google Assistant Action in less then 30 min?"
+        "Exploring the Temporal API, a modern solution to JavaScript's longstanding date and time handling challenges."
     },
     {
-      url: "https://medium.com/@saadpasta/why-react-is-the-best-5a97563f423e",
-      title: "Why REACT is The Best?",
+      url: "https://cerita.hashnode.dev/event-loop-pada-javascript",
+      title: "Event Loop pada JavaScript",
       description:
-        "React is a JavaScript library for building User Interface. It is maintained by Facebook and a community of individual developers and companies."
+        "Memahami konsep Event Loop dalam JavaScript dan perannya dalam mengelola eksekusi kode asynchronous."
     }
   ],
-  display: true // Set false to hide this section, defaults to true
+  display: true // Set to true to display this section
 };
 
 // Talks Sections
@@ -372,8 +418,8 @@ const contactInfo = {
   title: emoji("Contact Me ☎️"),
   subtitle:
     "Discuss a project or just want to say hi? My Inbox is open for all.",
-  number: "+92-0000000000",
-  email_address: "saadpasta70@gmail.com"
+  number: "+62-0000000000",
+  email_address: "dwikiarlan@gmail.com"
 };
 
 // Twitter Section
@@ -383,7 +429,7 @@ const twitterDetails = {
   display: true // Set true to display this section, defaults to false
 };
 
-const isHireable = false; // Set false if you are not looking for a job. Also isHireable will be display as Open for opportunities: Yes/No in the GitHub footer
+const isHireable = true; // Set false if you are not looking for a job. Also isHireable will be display as Open for opportunities: Yes/No in the GitHub footer
 
 export {
   illustration,

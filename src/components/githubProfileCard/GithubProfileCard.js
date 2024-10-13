@@ -20,7 +20,7 @@ export default function GithubProfileCard({prof}) {
             <div className="blog-header">
               <p className="subTitle blog-subtitle">{contactInfo.subtitle}</p>
             </div>
-            <h2 className="bio-text">"{emoji(String(prof.bio))}"</h2>
+            <h2 className="bio-text">"{emoji(String(prof.bio || "Crafting elegant solutions to complex problems with passion and precision 💻✨"))}"</h2>
             {prof.location !== null && (
               <div className="location-div">
                 <span className="desc-prof">
@@ -43,14 +43,14 @@ export default function GithubProfileCard({prof}) {
             )}
             <div className="opp-div">
               <span className="desc-prof">
-                Open for opportunities: {prof.hireable}
+                {/* Open for opportunities: {prof.hireable} */}
               </span>
             </div>
             <SocialMedia />
           </div>
           <div className="image-content-profile">
             <img
-              src={prof.avatarUrl}
+              src={"https://cdn.hashnode.com/res/hashnode/image/upload/v1726369050711/80caeaa9-d11c-40e5-9345-d4e818feb94d.jpeg?w=124&h=124&fit=crop&crop=faces&w=500&h=500&fit=crop&crop=entropy&auto=compress,format&format=webp&auto=compress,format&format=webp"}
               alt={prof.name}
               className="profile-image"
             />
